@@ -1,0 +1,32 @@
+Redux Toolkit includes the Redux core, as well as other key packages we feel are essential for building Redux applications (such as Redux Thunk and Reselect).
+Redux Toolkit is official recommended approach for writing Redux logic.
+It helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test.
+You can use Redux together with React, or with any other view library.
+It is tiny (2kB, including dependencies), but has a large ecosystem of addons available.
+The Redux source code is written in ES2015 but we precompile both CommonJS and UMD builds to ES5 so they work in any modern browser.
+You don't need to use Babel or a module bundler to get started with Redux.
+----------------------------
+Redux Toolkit is available as a package on NPM for use with a module bundler or in a Node application:
+    # NPM
+    npm install @reduxjs/toolkit
+    # Yarn
+    yarn add @reduxjs/toolkit
+----------------------------
+Create a React Redux App
+    # Redux + Plain JS template
+    npx create-react-app my-app --template redux
+    # Redux + TypeScript template
+    npx create-react-app my-app --template redux-typescript
+----------------------------
+Redux Core
+    # NPM
+    npm install redux
+    # Yarn
+    yarn add redux
+----------------------------
+Redux is a valuable tool for organizing your state, but you should also consider whether it's appropriate for your situation.
+Don't use Redux just because someone said you should - take some time to understand the potential benefits and tradeoffs of using it.
+Here are some suggestions on when it makes sense to use Redux:
+    -You have reasonable amounts of data changing over time
+    -You need a single source of truth for your state
+    -You find that keeping all your state in a top-level component is no longer sufficient
