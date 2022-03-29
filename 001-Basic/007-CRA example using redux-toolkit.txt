@@ -121,6 +121,21 @@ Create a src/features/counter/Counter.js file with a <Counter> component inside,
         );
     }
 
+7- Change App.js content to :
+
+    import Counter from "./features/counter/Counter";
+
+    function App() {
+    return (
+        <div className="App">
+        <Counter />
+        </div>
+    );
+    }
+
+    export default App;
+
+
 
 
 
