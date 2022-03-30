@@ -139,5 +139,8 @@ Create a src/features/counter/Counter.js file with a <Counter> component inside,
 
 
 
-github repository:
+github repository: (ali's version)
 https://github.com/alithecodeguy/redux-cra-example
+
+official example: (advanced)
+https://codesandbox.io/s/github/reduxjs/redux-essentials-counter-example/tree/master/?from-embed=&file=/src/features/counter/Counter.js
